@@ -1,5 +1,5 @@
-# Welcome to GitHub Desktop!
+# 微星 B360M 迫击炮 黑苹果Clover EFI
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+## EFI 介绍
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+此 EFI 使用iMac19,1机型，微星 B360M 迫击炮 的绝大部分用户可通过修改使用，核显 + 独显共同硬解，默认启用全部 USB 端口，[Clover](https://github.com/CloverHackyColor/CloverBootloader)版本：5120
