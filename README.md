@@ -4,9 +4,11 @@
 
 此 EFI 使用iMac19,1机型，微星 B360M 迫击炮 的绝大部分用户可通过修改使用，核显 + 独显共同硬解，默认启用全部 USB 端口，[Clover](https://github.com/CloverHackyColor/CloverBootloader)版本：5120
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/屏幕快照%202020-07-31%20下午10.24.33%20上午.png?raw=true)
+![](![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/系统信息.png
+)
 
 ### 可正常工作
+
 - [x] 声卡（板载）/ 网卡（板载）
 - [x] 显卡（核显 + 独显）/ 硬解 4K（HEVC + H.264）
 - [x] WiFi（PCI-E 设备） / 蓝牙（PEI-E 载 USB 设备）
@@ -16,6 +18,36 @@
 - [x] 睿频 / HWP 变频 / 原生电源管理
 - [x] 睡眠 / 键盘、鼠标唤醒
 - [x] 其他白果功能（99%）
+
+### 系统截图
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/内存.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/HiDPI.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/4k%20核心显卡加速解码.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/音频输出.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/音频输入.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/Wi-Fi.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/蓝牙.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/随航.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/Time%20Machine%20备份.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/NVME%20ssd.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/USB.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/显卡.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/电源管理.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/蓝牙2.png)
 
 ### 我的配置
 
