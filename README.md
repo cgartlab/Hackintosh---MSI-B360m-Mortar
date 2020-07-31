@@ -6,6 +6,14 @@
 
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/系统信息.png)
 
+## 更新记录
+#### 2020.07.31
+* 升级 macOS Catalina 10.15.6
+* 升级 Clover v5120
+* 升级 WhateverGreen v1.4.1 (7月15日编译，根治安装/更新中的黑屏现象)，原生支持UHD620/UHD630等八代核显，不需要注入platform-id， 同时它也支持NVIDIA和AMD的显卡，以及整合了Shiki和CoreDisplayFixup的驱动，现在是All In One了
+* 升级 Lilu v1.4.6
+* 内存修正驱动采用 OcQuirks，原则上支持 Big Sur
+
 ### 可正常工作
 
 - [x] 声卡（板载）/ 网卡（板载）
@@ -85,14 +93,6 @@
 
 *显卡优先选择公版或蓝宝石，其次选择迪兰恒进、华硕和微星，尽量不选择盈通和讯景，一定避开 RX 580 2048SP 版本！*
 *个人非常不推荐使用玄冰 400 散热器（不含扣具升级款），准备更换为利民 AS120，远离反人类设计保平安。*
-
-## 更新记录
-#### 2020.07.31
-* 升级 macOS Catalina 10.15.6
-* 升级 Clover v5120
-* 升级 WhateverGreen v1.4.1 (7月15日编译，根治安装/更新中的黑屏现象)，原生支持UHD620/UHD630等八代核显，不需要注入platform-id， 同时它也支持NVIDIA和AMD的显卡，以及整合了Shiki和CoreDisplayFixup的驱动，现在是All In One了
-* 升级 Lilu v1.4.6
-* 内存修正驱动采用 OcQuirks，原则上支持 Big Sur
 
 ## 鸣谢
 [xjn](https://blog.xjn819.com/)<br>
