@@ -94,6 +94,18 @@
 *显卡优先选择公版或蓝宝石，其次选择迪兰恒进、华硕和微星，尽量不选择盈通和讯景，一定避开 RX 580 2048SP 版本！*
 *个人非常不推荐使用玄冰 400 散热器（不含扣具升级款），准备更换为利民 AS120，远离反人类设计保平安。*
 
+## 生产力工具测试
+
+* 个人测试过的一系列视觉设计相关的软件，功能均无明显异常
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/App-CGI.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/App-Design.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/App-Developer%20Tools.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/App-Normal%20Tools.png)
+
 ## 鸣谢
 [xjn](https://blog.xjn819.com/)<br>
 [andot](https://github.com/andot/MSI-B360M-MORTAR-IMACPRO-EFI/)<br>
