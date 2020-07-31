@@ -26,6 +26,10 @@
 - [x] 睡眠 / 键盘、鼠标唤醒
 - [x] 其他白果功能（99%）
 
+### 硬件信息、风扇转速和温度检测
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/硬件信息和温度检测.png)
+
 ### 系统截图
 
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/内存.png)
