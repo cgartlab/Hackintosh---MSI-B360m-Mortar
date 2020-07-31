@@ -48,6 +48,10 @@
 
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/蓝牙2.png)
 
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/GeekBench-CPU.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/GeekBench-GPU.png)
+
 ### 我的配置
 
 |         硬件       |                   型号                     |
