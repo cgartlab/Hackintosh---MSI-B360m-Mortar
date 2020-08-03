@@ -234,7 +234,7 @@
 		<key>flagstate</key>
 		<integer>1</integer>
 		<key>UIScale</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>CPU</key>
 	<dict>
