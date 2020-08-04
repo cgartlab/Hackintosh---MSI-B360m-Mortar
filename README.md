@@ -104,7 +104,14 @@ _个人非常不推荐使用玄冰 400 散热器（不含扣具升级款），�
 
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/GeekBench-CPU.png)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/GeekBench-GPU.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/GeekBench-CPU-SingleCore.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/GeekBench-CPU-MultiCore.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/GeekBench-GPU-Metal.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/GeekBench-GPU-OpenCL.png)
+
 
 ## 生产力工具测试
 
