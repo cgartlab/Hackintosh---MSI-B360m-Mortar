@@ -329,17 +329,32 @@
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
-		<key>AppleIntelCPUPM</key>
-		<true/>
 		<key>AppleRTC</key>
 		<true/>
-		<key>#FakeCPUID</key>
-		<string>0x010676</string>
-		<key>KernelCpu</key>
-		<false/>
 		<key>KernelPm</key>
 		<true/>
 		<key>KernelLapic</key>
+		<false/>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Find</key>
+				<data>AEFQUExFIFNTRAA=</data>
+				<key>Name</key>
+				<string>com.apple.iokit.IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>AAAAAAAAAAAAAAA=</data>
+				<key>Disabled</key>
+				<false/>
+				<key>Comment</key>
+				<string>Enable TRIM for SSD</string>
+			</dict>
+		</array>
+		<key>#FakeCPUID</key>
+		<string>0x010676</string>
+		<key>AppleIntelCPUPM</key>
+		<true/>
+		<key>KernelCpu</key>
 		<false/>
 	</dict>
 	<key>RtVariables</key>
