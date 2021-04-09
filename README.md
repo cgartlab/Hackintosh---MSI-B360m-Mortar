@@ -1,11 +1,20 @@
 # 微星 B360M 迫击炮 黑苹果OpenCore EFI
 
-## EFI 介绍
+## 写在前面：
+> 为什么选择 OpenCore
 
-此 EFI 使用iMac19,1机型，微星 B360M 迫击炮 的绝大部分用户可通过修改使用，核显 + 独显共同硬解，默认启用全部 USB 端口，[OpenCore](https://github.com/CloverHackyColor/CloverBootloader)版本：0.6.8
+> * 从 2019 年 9 月以后, Acidanthera 开发的内核驱动 (Lilu, AppleALC 等等) 「不再会」 在 Clover 上做兼容性测试
+> OpenCore 更加注重系统的安全性, 提供对 OpenCore 自身引导文件对加密, 同时对文件保险箱 (FileVault) 有更强大的支持, 在未来会支持 UEFI 安全启动
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/系统信息.png?raw=true)
-- [微星 B360M 迫击炮 黑苹果Clover EFI](#微星b360m迫击炮黑苹果-clover-efi)
+> * OpenCore 启动 FileVault (硬盘保险箱) 加密的分区速度远超 Clover
+> * OpenCore 支持基于 boot.efi 的原生开机快捷键支持
+> * OpenCore 使用更加先进的方法注入第三方内核扩展驱动 (Kext) 且与此同时不会破坏系统完整性保护
+> * OpenCore 通过读取启动磁盘设置的 NVRAM 变量, 可以像白苹果一样支持在设置的启动磁盘切换默认引导项支持给其它 .efi 驱动或引导工具加入参数大量 Acidanthera 维护的独立 UEFI 驱动 被合并入 OpenCore, 未来的开发直接与 OpenCore 绑定, 且不再支持 Clover
+> 
+以上转载自https://blog.daliansky.net/OpenCore-BootLoader.html
+
+## 目录
+- [微星 B360M 迫击炮 黑苹果OpenCore EFI](#微星b360m迫击炮黑苹果-OpenCore-efi)
   - [EFI 介绍](#efi介绍)
   - [更新记录](#更新记录)
       - [2020.08.06](#2020-08-06)
@@ -19,28 +28,17 @@
   - [生产力工具测试](#生产力工具测试)
   - [鸣谢](#鸣谢)
 
+## EFI 介绍
+
+此 EFI 使用iMac19,1机型，微星 B360M 迫击炮 的绝大部分用户可通过修改使用，核显 + 独显共同硬解，默认启用全部 USB 端口，[OpenCore](https://github.com/acidanthera/OpenCorePkg) 版本：0.6.8
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/System-info.png?raw=true)
+
 ## 更新记录
 
-#### 2020.08.06
+#### 2021.04.09
 
--   升级 音频驱动 AppleALC.kext v1.5.2
--   升级 硬件检测驱动 VirtualSMC.kext v1.1.5
-
-#### 2020.08.04
-
--   精简 显示器驱动，增强兼容性
--   删除 nullCPUpwm.kext
--   校正 引导界面画面比例
--   修复 小概率重启显示偏色的问题
--   增加 GeekBench 5 性能测试信息
-
-#### 2020.07.31
-
--   升级 macOS Catalina 10.15.6
--   升级 Clover v5120
--   升级 WhateverGreen v1.4.1 (7月15日编译，根治安装/更新中的黑屏现象)，原生支持UHD620/UHD630等八代核显，不需要注入platform-id， 同时它也支持NVIDIA和AMD的显卡，以及整合了Shiki和CoreDisplayFixup的驱动，现在是All In One了
--   升级 Lilu v1.4.6
--   内存修正驱动采用 OcQuirks，原则上支持 Big Sur
+-   所有驱动均针对OpenCore引导程序更新为目前的最新稳定版
 
 ### 我的配置
 
@@ -89,60 +87,57 @@ _个人非常不推荐使用玄冰 400 散热器（不含扣具升级款），�
 
 ### 硬件信息、风扇转速和温度检测
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/硬件信息和温度检测.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Hardware-info-test.png?raw=true)
 
 ### 系统截图
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/内存.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Memory.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/HiDPI.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/HiDPI.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/4k%20核心显卡加速解码.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/4k-video-decode.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/音频输出.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Audio-out.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/音频输入.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Audio-in.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/Wi-Fi.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Wi-Fi.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/蓝牙.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Bluetooth.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/随航.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Handoff.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/Time%20Machine%20备份.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Time-Machine.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/NVME%20ssd.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/NVME%20ssd.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/USB.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/USB.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/显卡.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Gpu.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/电源管理.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/PM.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/蓝牙2.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Bluetooth-2.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/GeekBench-CPU.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/GeekBench-CPU.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/GeekBench-CPU-SingleCore.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/GeekBench-GPU-Metal.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/GeekBench-CPU-MultiCore.png?raw=true)
-
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/GeekBench-GPU-Metal.png?raw=true)
-
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/GeekBench-GPU-OpenCL.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/GeekBench-GPU-OpenCL.png?raw=true)
 
 
 ## 生产力工具测试
 
 -   个人测试过的一系列视觉设计相关的软件，功能均无明显异常
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/App-CGI.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/App-CGI.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/App-Design.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/App-Design.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/App-Developer%20Tools.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/App-Developer%20Tools.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/App-Normal%20Tools.png?raw=true)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/App-Normal%20Tools.png?raw=true)
+
 
 ## 鸣谢
 
