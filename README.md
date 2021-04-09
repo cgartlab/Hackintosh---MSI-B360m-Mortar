@@ -1,10 +1,23 @@
-# 微星 B360M 迫击炮 黑苹果Clover EFI
+# 微星 B360M 迫击炮 黑苹果OpenCore EFI
 
 ## EFI 介绍
 
 此 EFI 使用iMac19,1机型，微星 B360M 迫击炮 的绝大部分用户可通过修改使用，核显 + 独显共同硬解，默认启用全部 USB 端口，[Clover](https://github.com/CloverHackyColor/CloverBootloader)版本：5120
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/系统信息.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/系统信息.png?raw=true)
+- [微星 B360M 迫击炮 黑苹果Clover EFI](#微星b360m迫击炮黑苹果-clover-efi)
+  - [EFI 介绍](#efi介绍)
+  - [更新记录](#更新记录)
+      - [2020.08.06](#2020-08-06)
+      - [2020.08.04](#2020-08-04)
+      - [2020.07.31](#2020-07-31)
+    - [我的配置](#我的配置)
+    - [兼容的配置](#兼容的配置)
+    - [可正常工作](#可正常工作)
+    - [硬件信息、风扇转速和温度检测](#硬件信息、风扇转速和温度检测)
+    - [系统截图](#系统截图)
+  - [生产力工具测试](#生产力工具测试)
+  - [鸣谢](#鸣谢)
 
 ## 更新记录
 
@@ -76,60 +89,60 @@ _个人非常不推荐使用玄冰 400 散热器（不含扣具升级款），�
 
 ### 硬件信息、风扇转速和温度检测
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/硬件信息和温度检测.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/硬件信息和温度检测.png?raw=true)
 
 ### 系统截图
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/内存.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/内存.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/HiDPI.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/HiDPI.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/4k%20核心显卡加速解码.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/4k%20核心显卡加速解码.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/音频输出.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/音频输出.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/音频输入.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/音频输入.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/Wi-Fi.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/Wi-Fi.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/蓝牙.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/蓝牙.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/随航.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/随航.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/Time%20Machine%20备份.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/Time%20Machine%20备份.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/NVME%20ssd.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/NVME%20ssd.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/USB.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/USB.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/显卡.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/显卡.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/电源管理.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/电源管理.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/蓝牙2.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/蓝牙2.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/GeekBench-CPU.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/GeekBench-CPU.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/GeekBench-CPU-SingleCore.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/GeekBench-CPU-SingleCore.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/GeekBench-CPU-MultiCore.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/GeekBench-CPU-MultiCore.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/GeekBench-GPU-Metal.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/GeekBench-GPU-Metal.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/GeekBench-GPU-OpenCL.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/GeekBench-GPU-OpenCL.png?raw=true)
 
 
 ## 生产力工具测试
 
 -   个人测试过的一系列视觉设计相关的软件，功能均无明显异常
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/App-CGI.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/App-CGI.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/App-Design.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/App-Design.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/App-Developer%20Tools.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/App-Developer%20Tools.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/master/Images/App-Normal%20Tools.png)
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/App-Normal%20Tools.png?raw=true)
 
 ## 鸣谢
 
