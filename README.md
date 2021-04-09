@@ -38,10 +38,11 @@
 
 #### 2021.04.09
 
--   系统升级至macOS Catalina 10.15.7
+-   系统更换为OpenCore 0.6.8 引导
+-   系统升级至macOS Catalina 10.15.7（理论已支持 macOS Big Sur）
 -   所有驱动均针对OpenCore引导程序更新为目前的最新稳定版
--   理论已支持 macOS Big Sur
--   跨大版本更新仍然建议提前Time Machine备份
+-   优化了系统登陆界面进入桌面的切换动画
+-   系统跨大版本更新仍然建议提前Time Machine备份
 
 ### 我的配置
 
