@@ -2,7 +2,7 @@
 
 ## EFI 介绍
 
-此 EFI 使用iMac19,1机型，微星 B360M 迫击炮 的绝大部分用户可通过修改使用，核显 + 独显共同硬解，默认启用全部 USB 端口，[Clover](https://github.com/CloverHackyColor/CloverBootloader)版本：5120
+此 EFI 使用iMac19,1机型，微星 B360M 迫击炮 的绝大部分用户可通过修改使用，核显 + 独显共同硬解，默认启用全部 USB 端口，[OpenCore](https://github.com/CloverHackyColor/CloverBootloader)版本：0.6.8
 
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-Clover/Images/系统信息.png?raw=true)
 - [微星 B360M 迫击炮 黑苹果Clover EFI](#微星b360m迫击炮黑苹果-clover-efi)
