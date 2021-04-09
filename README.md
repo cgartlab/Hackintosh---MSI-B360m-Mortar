@@ -9,7 +9,8 @@
 > * OpenCore 启动 FileVault (硬盘保险箱) 加密的分区速度远超 Clover
 > * OpenCore 支持基于 boot.efi 的原生开机快捷键支持
 > * OpenCore 使用更加先进的方法注入第三方内核扩展驱动 (Kext) 且与此同时不会破坏系统完整性保护
-> * OpenCore 通过读取启动磁盘设置的 NVRAM 变量, 可以像白苹果一样支持在设置的启动磁盘切换默认引导项支持给其它 .efi 驱动或引导工具加入参数大量 Acidanthera 维护的独立 UEFI 驱动 被合并入 OpenCore, 未来的开发直接与 OpenCore 绑定, 且不再支持 Clover
+> * OpenCore 通过读取启动磁盘设置的 NVRAM 变量, 可以像白苹果一样支持在设置的启动磁盘切换默认引导项支持给其它 .efi 驱动或引导工具加入参数大量 
+> Acidanthera 维护的独立 UEFI 驱动 被合并入 OpenCore, 未来的开发直接与 OpenCore 绑定, 且不再支持 Clover
 > 
 以上转载自https://blog.daliansky.net/OpenCore-BootLoader.html
 
