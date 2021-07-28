@@ -37,6 +37,16 @@
 
 ## 更新记录
 
+#### 2021.07.28
+
+-   系统跟进更新为 OpenCore 0.7.1引导
+-   更新驱动 AppleALC - 1.6.2
+-   更新驱动 IntelMausi - 1.0.7
+-   更新驱动 Lilu - 1.5.4
+-   更新驱动 NVMeFix - 1.0.9
+-   更新驱动 VirtualSMC - 1.2.5
+-   更新驱动 WhateverGreen - 1.5.1
+
 #### 2021.04.09
 
 -   系统更换为OpenCore 0.6.8 引导
