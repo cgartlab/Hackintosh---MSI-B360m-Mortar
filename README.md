@@ -42,7 +42,7 @@
 #### 2021.09.13
 
 -   系统跟进更新为 OpenCore 0.7.3引导
--   更新驱动 Lilu - 1.5.5
+-   更新驱动 Lilu - 1.5.6
 -   更新驱动 AppleALC - 1.6.4
 -   更新驱动 WhateverGreen - 1.5.3
 -   更新驱动 VirtualSMC - 1.2.7
