@@ -502,24 +502,6 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
-                    <key>BundlePath</key>
-                    <string>Display-5e3-2790.kext</string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string></string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
                     <string>USBPorts.kext</string>
@@ -1148,11 +1130,11 @@
                 <key>AudioDevice</key>
                 <string>PciRoot(0x0)/Pci(0x1f,0x3)</string>
                 <key>AudioOut</key>
-                <integer>2</integer>
+                <integer>0</integer>
                 <key>AudioSupport</key>
-                <false/>
+                <true/>
                 <key>MinimumVolume</key>
-                <integer>40</integer>
+                <integer>60</integer>
                 <key>PlayChime</key>
                 <string>Enabled</string>
                 <key>ResetTrafficClass</key>
