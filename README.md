@@ -36,7 +36,7 @@
 
 ## EFI 介绍
 
-此 EFI 使用iMac19,1机型，微星 B360M 迫击炮 的绝大部分用户可通过修改使用，核显 + 独显共同硬解，默认启用全部 USB 端口，[OpenCore](https://github.com/acidanthera/OpenCorePkg) 版本：0.7.3
+此 EFI 使用iMac19,1机型，微星 B360M 迫击炮 的绝大部分用户可通过修改使用，核显 + 独显共同硬解，默认启用全部 USB 端口，[OpenCore](https://github.com/acidanthera/OpenCorePkg) 版本：0.7.6
 
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/System-info.png?raw=true)
 
