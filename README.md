@@ -1,6 +1,7 @@
 # 微星 B360M 迫击炮 黑苹果OpenCore EFI
 
-## 写在前面：
+## 写在前面
+
 > 为什么选择 OpenCore
 
 > * 从 2019 年 9 月以后, Acidanthera 开发的内核驱动 (Lilu, AppleALC 等等) 「不再会」 在 Clover 上做兼容性测试
@@ -11,25 +12,27 @@
 > * OpenCore 使用更加先进的方法注入第三方内核扩展驱动 (Kext) 且与此同时不会破坏系统完整性保护
 > * OpenCore 通过读取启动磁盘设置的 NVRAM 变量, 可以像白苹果一样支持在设置的启动磁盘切换默认引导项支持给其它 .efi 驱动或引导工具加入参数
 > 大量 Acidanthera 维护的独立 UEFI 驱动 被合并入 OpenCore, 未来的开发直接与 OpenCore 绑定, 且不再支持 Clover
-> 
-以上转载自https://blog.daliansky.net/OpenCore-BootLoader.html
+>
+以上转载自<https://blog.daliansky.net/OpenCore-BootLoader.html>
 
 ## 目录
-- [微星 B360M 迫击炮 黑苹果OpenCore EFI](#微星b360m迫击炮黑苹果-opencore-efi)
-  - [写在前面：](#写在前面：)
-  - [目录](#目录)
-  - [EFI 介绍](#efi介绍)
-  - [更新记录](#更新记录)
-      - [2021.09.13](#2021-09-13)
-      - [2021.07.28](#2021-07-28)
-      - [2021.04.09](#2021-04-09)
-    - [我的配置](#我的配置)
-    - [兼容的配置](#兼容的配置)
-    - [可正常工作](#可正常工作)
-    - [硬件信息-风扇转速和温度检测](#硬件信息-风扇转速和温度检测)
-    - [系统截图](#系统截图)
-  - [生产力工具测试](#生产力工具测试)
-  - [鸣谢](#鸣谢)
+
+* [微星 B360M 迫击炮 黑苹果OpenCore EFI](#微星b360m迫击炮黑苹果-opencore-efi)
+  * [写在前面：](#写在前面：)
+  * [目录](#目录)
+  * [EFI 介绍](#efi介绍)
+  * [更新记录](#更新记录)
+    * [2021.11.09](#2021-11-09)
+    * [2021.09.13](#2021-09-13)
+    * [2021.07.28](#2021-07-28)
+    * [2021.04.09](#2021-04-09)
+    * [我的配置](#我的配置)
+    * [兼容的配置](#兼容的配置)
+    * [可正常工作](#可正常工作)
+    * [硬件信息-风扇转速和温度检测](#硬件信息-风扇转速和温度检测)
+    * [系统截图](#系统截图)
+  * [生产力工具测试](#生产力工具测试)
+  * [鸣谢](#鸣谢)
 
 ## EFI 介绍
 
@@ -39,31 +42,44 @@
 
 ## 更新记录
 
+#### 2021-11-09
+
+* 系统跟进更新为 OpenCore 0.7.6引导
+* 删除 SSDT-EC-USBX-DESKTOP.aml（影响睡眠唤醒）
+* 新增驱动 HibernationFixup - 1.0（修复睡眠唤醒）
+* 修正定制USB驱动 USBPorts.kext
+* 更新驱动 AudioDxe.efi 为最新
+* 更新驱动 HfsPlus.efi 为最新
+* 更新驱动 AppleALC - 1.6.6
+* 更新驱动 Lilu - 1.5.7
+* 更新驱动 WhateverGreen - 1.5.5
+* 默认开启启动声音
+
 #### 2021-09-13
 
--   系统跟进更新为 OpenCore 0.7.3引导
--   更新驱动 Lilu - 1.5.6
--   更新驱动 AppleALC - 1.6.4
--   更新驱动 WhateverGreen - 1.5.3
--   更新驱动 VirtualSMC - 1.2.7
+* 系统跟进更新为 OpenCore 0.7.3引导
+* 更新驱动 Lilu - 1.5.6
+* 更新驱动 AppleALC - 1.6.4
+* 更新驱动 WhateverGreen - 1.5.3
+* 更新驱动 VirtualSMC - 1.2.7
 
 #### 2021-07-28
 
--   系统跟进更新为 OpenCore 0.7.1引导
--   更新驱动 AppleALC - 1.6.2
--   更新驱动 IntelMausi - 1.0.7
--   更新驱动 Lilu - 1.5.4
--   更新驱动 NVMeFix - 1.0.9
--   更新驱动 VirtualSMC - 1.2.5
--   更新驱动 WhateverGreen - 1.5.1
+* 系统跟进更新为 OpenCore 0.7.1引导
+* 更新驱动 AppleALC - 1.6.2
+* 更新驱动 IntelMausi - 1.0.7
+* 更新驱动 Lilu - 1.5.4
+* 更新驱动 NVMeFix - 1.0.9
+* 更新驱动 VirtualSMC - 1.2.5
+* 更新驱动 WhateverGreen - 1.5.1
 
 #### 2021-04-09
 
--   系统更换为OpenCore 0.6.8 引导
--   系统升级至macOS Catalina 10.15.7（理论已支持 macOS Big Sur）
--   所有驱动均针对OpenCore引导程序更新为目前的最新稳定版
--   优化了系统登陆界面进入桌面的切换动画
--   系统跨大版本更新仍然建议提前Time Machine备份
+* 系统更换为OpenCore 0.6.8 引导
+* 系统升级至macOS Catalina 10.15.7（理论已支持 macOS Big Sur）
+* 所有驱动均针对OpenCore引导程序更新为目前的最新稳定版
+* 优化了系统登陆界面进入桌面的切换动画
+* 系统跨大版本更新仍然建议提前Time Machine备份
 
 ### 我的配置
 
@@ -100,15 +116,15 @@ _个人非常不推荐使用玄冰 400 散热器（不含扣具升级款），�
 
 ### 可正常工作
 
--   [x] 声卡（板载）/ 网卡（板载）
--   [x] 显卡（核显 + 独显）/ 硬解 4K（HEVC + H.264）
--   [x] WiFi（PCI-E 设备） / 蓝牙（PEI-E 载 USB 设备）
--   [x] 隔空投送 / 接力 / 随航
--   [x] FaceTime / iMessage
--   [x] Apple Music / Apple TV Plus
--   [x] 睿频 / HWP 变频 / 原生电源管理
--   [x] 睡眠 / 键盘、鼠标唤醒
--   [x] 其他白果功能（99%）
+* [x] 声卡（板载）/ 网卡（板载）
+* [x] 显卡（核显 + 独显）/ 硬解 4K（HEVC + H.264）
+* [x] WiFi（PCI-E 设备） / 蓝牙（PEI-E 载 USB 设备）
+* [x] 隔空投送 / 接力 / 随航
+* [x] FaceTime / iMessage
+* [x] Apple Music / Apple TV Plus
+* [x] 睿频 / HWP 变频 / 原生电源管理
+* [x] 睡眠 / 键盘、鼠标唤醒
+* [x] 其他白果功能（99%）
 
 ### 硬件信息-风扇转速和温度检测
 
@@ -150,10 +166,9 @@ _个人非常不推荐使用玄冰 400 散热器（不含扣具升级款），�
 
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/GeekBench-GPU-OpenCL.png?raw=true)
 
-
 ## 生产力工具测试
 
--   个人测试过的一系列视觉设计相关的软件，功能均无明显异常
+* 个人测试过的一系列视觉设计相关的软件，功能均无明显异常
 
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/App-CGI.png?raw=true)
 
@@ -162,7 +177,6 @@ _个人非常不推荐使用玄冰 400 散热器（不含扣具升级款），�
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/App-Developer%20Tools.png?raw=true)
 
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/App-Normal%20Tools.png?raw=true)
-
 
 ## 鸣谢
 
