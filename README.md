@@ -126,41 +126,47 @@ _个人非常不推荐使用玄冰 400 散热器（不含扣具升级款），�
 * [x] 睡眠 / 键盘、鼠标唤醒
 * [x] 其他白果功能（99%）
 
-### 硬件信息-风扇转速和温度检测
+### 硬件信息
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Hardware-info-test.png?raw=true)
+![硬件信息](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Hardware-info-test.png?raw=true)
 
 ### 系统截图
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Memory.png?raw=true)
+![内存](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Memory.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/HiDPI.png?raw=true)
+![HiDPI](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/HiDPI.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/4k-video-decode.png?raw=true)
+![4K 硬件解码](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/4k-video-decode.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Audio-out.png?raw=true)
+![音频输出](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Audio-out.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Audio-in.png?raw=true)
+![音频输入](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Audio-in.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Wi-Fi.png?raw=true)
+![无线网卡](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Wi-Fi.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Bluetooth.png?raw=true)
+![蓝牙](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Bluetooth.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Handoff.png?raw=true)
+![蓝牙](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Bluetooth-2.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Time-Machine.png?raw=true)
+![随航](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Handoff.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/NVME%20ssd.png?raw=true)
+![系统备份](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Time-Machine.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/USB.png?raw=true)
+![SSD硬盘](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/NVME%20ssd.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Gpu.png?raw=true)
+![USB接口](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/USB.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/PM.png?raw=true)
+![GPU信息](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Gpu.png?raw=true)
 
-![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Bluetooth-2.png?raw=true)
+![电源管理](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/PM.png?raw=true)
+
+### 性能测试
 
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/GeekBench-CPU.png?raw=true)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/GeekBench-CPU-singlecore.png)
+
+![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/GeekBench-CPU-multicore.png)
 
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/GeekBench-GPU-Metal.png?raw=true)
 
