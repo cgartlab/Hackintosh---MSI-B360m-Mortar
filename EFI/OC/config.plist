@@ -791,7 +791,7 @@
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>Acidanthera\Chardonnay</string>
+                <string>Acidanthera\Syrah</string>
                 <key>PollAppleHotKeys</key>
                 <true/>
                 <key>ShowPicker</key>
@@ -1071,7 +1071,7 @@
                 <key>MinimumVolume</key>
                 <integer>60</integer>
                 <key>PlayChime</key>
-                <string>Enabled</string>
+                <string>Auto</string>
                 <key>ResetTrafficClass</key>
                 <false/>
                 <key>SetupDelay</key>
