@@ -6,7 +6,6 @@
 
 > * 从 2019 年 9 月以后, Acidanthera 开发的内核驱动 (Lilu, AppleALC 等等) 「不再会」 在 Clover 上做兼容性测试
 > OpenCore 更加注重系统的安全性, 提供对 OpenCore 自身引导文件对加密, 同时对文件保险箱 (FileVault) 有更强大的支持, 在未来会支持 UEFI 安全启动
-
 > * OpenCore 启动 FileVault (硬盘保险箱) 加密的分区速度远超 Clover
 > * OpenCore 支持基于 boot.efi 的原生开机快捷键支持
 > * OpenCore 使用更加先进的方法注入第三方内核扩展驱动 (Kext) 且与此同时不会破坏系统完整性保护
