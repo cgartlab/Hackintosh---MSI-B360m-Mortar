@@ -27,18 +27,18 @@
       - [2021-09-13](#2021-09-13)
       - [2021-07-28](#2021-07-28)
       - [2021-04-09](#2021-04-09)
-    - [我的配置](#我的配置)
-    - [兼容的配置](#兼容的配置)
-    - [可正常工作](#可正常工作)
-    - [硬件信息](#硬件信息)
-    - [系统截图](#系统截图)
-    - [性能测试](#性能测试)
+  - [我的配置](#我的配置)
+  - [兼容的配置](#兼容的配置)
+  - [可正常工作](#可正常工作)
+  - [硬件信息](#硬件信息)
+  - [系统截图](#系统截图)
+  - [性能测试](#性能测试)
   - [生产力工具测试](#生产力工具测试)
   - [鸣谢](#鸣谢)
 
 ## EFI 介绍
 
-此 EFI 使用iMac19,1机型，微星 B360M 迫击炮 的绝大部分用户可通过修改使用，核显 + 独显共同硬解，默认启用全部 USB 端口，[OpenCore](https://github.com/acidanthera/OpenCorePkg) 版本：0.7.6
+此 EFI 使用iMac19,1机型，微星 B360M 迫击炮 的绝大部分用户可通过修改使用，核显 + 独显共同硬解，默认启用全部 USB 端口，[OpenCore](https://github.com/acidanthera/OpenCorePkg) 版本：0.7.8
 
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/System-info.png?raw=true)
 
@@ -91,7 +91,7 @@
 * 优化了系统登陆界面进入桌面的切换动画
 * 系统跨大版本更新仍然建议提前Time Machine备份
 
-### 我的配置
+## 我的配置
 
 |      硬件 | 型号                                         |
 | ------: | :----------------------------------------- |
@@ -106,7 +106,7 @@
 |      键盘 | iKbc TypeMan C87                             |
 |      鼠标 | 罗技 MX Master 2s（使用优联连接，以方便在 BIOS 中使用）       |
 
-### 兼容的配置
+## 兼容的配置
 
 | 硬件 | 型号     |
 | :------------- | :------------- |
@@ -124,7 +124,7 @@
 _显卡优先选择公版或蓝宝石，其次选择迪兰恒进、华硕和微星，尽量不选择盈通和讯景，一定避开 RX 580 2048SP 版本！_
 _个人非常不推荐使用玄冰 400 散热器（不含扣具升级款），准备更换为利民 AS120，远离反人类设计保平安。_
 
-### 可正常工作
+## 可正常工作
 
 * [x] 声卡（板载）/ 网卡（板载）
 * [x] 显卡（核显 + 独显）/ 硬解 4K（HEVC + H.264）
@@ -136,11 +136,11 @@ _个人非常不推荐使用玄冰 400 散热器（不含扣具升级款），�
 * [x] 睡眠 / 键盘、鼠标唤醒
 * [x] 其他白果功能（99%）
 
-### 硬件信息
+## 硬件信息
 
 ![硬件信息](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Hardware-info-test.png?raw=true)
 
-### 系统截图
+## 系统截图
 
 ![内存](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/Memory.png?raw=true)
 
@@ -170,7 +170,7 @@ _个人非常不推荐使用玄冰 400 散热器（不含扣具升级款），�
 
 ![电源管理](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/PM.png?raw=true)
 
-### 性能测试
+## 性能测试
 
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/GeekBench-CPU.png?raw=true)
 
