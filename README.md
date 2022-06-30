@@ -21,6 +21,7 @@
   - [目录](#目录)
   - [EFI 介绍](#efi-介绍)
   - [更新记录](#更新记录)
+      - [2022-06-30](#2022-06-30)
       - [2022-05-12](#2022-05-12)
       - [2021-11-09](#2021-11-09)
       - [2021-09-13](#2021-09-13)
@@ -42,6 +43,12 @@
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/System-info.png?raw=true)
 
 ## 更新记录
+
+#### 2022-06-30
+
+* 系统跟进更新为 OpenCore 0.8.1引导
+* 更新驱动 AppleALC - 1.7.2
+* 更新驱动 WhateverGreen - 1.5.9
 
 #### 2022-05-12
 
