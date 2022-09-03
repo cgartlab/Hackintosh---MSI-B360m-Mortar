@@ -21,6 +21,7 @@
   - [目录](#目录)
   - [EFI 介绍](#efi-介绍)
   - [更新记录](#更新记录)
+      - [2022-09-03](#2022-09-03)
       - [2022-06-30](#2022-06-30)
       - [2022-05-12](#2022-05-12)
       - [2021-11-09](#2021-11-09)
@@ -38,11 +39,23 @@
 
 ## EFI 介绍
 
-此 EFI 使用iMac19,1机型，微星 B360M 迫击炮 的绝大部分用户可通过修改使用，核显 + 独显共同硬解，默认启用全部 USB 端口，[OpenCore](https://github.com/acidanthera/OpenCorePkg) 版本：0.8.1
+此 EFI 使用iMac19,1机型，微星 B360M 迫击炮 的绝大部分用户可通过修改使用，核显 + 独显共同硬解，默认启用全部 USB 端口，[OpenCore](https://github.com/acidanthera/OpenCorePkg) 版本：0.8.3
 
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/System-info.png?raw=true)
 
 ## 更新记录
+
+#### 2022-09-03
+
+* 系统跟进更新为 OpenCore 0.8.3引导
+* 更新驱动 Lilu - 1.6.2
+* 更新驱动 VirtualSMC - 1.3.0
+* 更新驱动 AppleALC - 1.7.4
+* 更新驱动 WhateverGreen - 1.6.1
+* 更新驱动 IntelMausi - 1.0.7
+* 更新驱动 NVMeFix - 1.1.0
+* 添加驱动 RadeonSensor - 0.3.1
+* 添加驱动 SMCRadeonGPU - 0.3.1
 
 #### 2022-06-30
 
