@@ -13,7 +13,7 @@
 > 大量 Acidanthera 维护的独立 UEFI 驱动 被合并入 OpenCore, 未来的开发直接与 OpenCore 绑定, 且不再支持 Clover
 >
 以上转载自<https://blog.daliansky.net/OpenCore-BootLoader.html>
-
+ß
 ## 目录
 
 - [微星 B360M 迫击炮 黑苹果OpenCore EFI](#微星-b360m-迫击炮-黑苹果opencore-efi)
@@ -21,6 +21,7 @@
   - [目录](#目录)
   - [EFI 介绍](#efi-介绍)
   - [更新记录](#更新记录)
+      - [2024-02-19](#2024-02-19)
       - [2023-10-29](#2023-10-29)
       - [2022-09-03](#2022-09-03)
       - [2022-06-30](#2022-06-30)
@@ -45,6 +46,11 @@
 ![](https://github.com/AskyStudio/Hackintosh---MSI-B360m-Mortar/blob/Hackintosh-OpenCore/Images/System-info.png?raw=true)
 
 ## 更新记录
+
+#### 2024-02-19
+
+* 系统跟进更新为 OpenCore 0.9.6引导
+* 更新驱动 AppleALC - 1.8.9
 
 #### 2023-10-29
 
