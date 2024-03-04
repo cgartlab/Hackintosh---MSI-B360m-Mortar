@@ -1,5 +1,9 @@
 # 微星 B360M 迫击炮 黑苹果OpenCore EFI
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=cgartlab/Hackintosh---MSI-B360m-Mortar&type=Date)](https://star-history.com/#cgartlab/Hackintosh---MSI-B360m-Mortar&Date)
+
 ## 写在前面
 
 > 为什么选择 OpenCore
